@@ -31,8 +31,19 @@ To install task manager follow these steps:
    git clone https://github.com/your_username_/Project-Name.git
    ```
    
-2. Run the watch_next.py file in your ide
+2. Build the environment in docker
+   ```sh
+      docker build -t python-app ./
+   ```
 
+3. Run the environment in docker
+   ```sh
+      docker run -it python-app
+   ```
+
+4. The watch_next.py file will run in docker
+
+5. Enter the name of a film and a description of the filem when prompted. The program will run and return a recomnedation
 
 ## Usage
 Run the code and read the ouput

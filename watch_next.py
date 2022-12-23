@@ -96,7 +96,7 @@ def recommend_movie (name,description):
                     highest_score = token.similarity(token_)
                     next_movie = movie.get_name()
 
-    return f'If you liked {last_watched.get_name()} then you will enjoy {next_movie}\
+    return f'\nIf you liked {last_watched.get_name()} then you will enjoy {next_movie}\
  it has a {round((highest_score*100),2)} match'
 
 # ====== Program ======
