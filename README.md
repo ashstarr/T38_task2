@@ -43,10 +43,13 @@ To install task manager follow these steps:
 
 4. The watch_next.py file will run in docker
 
-5. Enter the name of a film and a description of the filem when prompted. The program will run and return a recomnedation
+
 
 ## Usage
-Run the code and read the ouput
+1. Enter the name of a film
+2. Enter a description of the film
+
+The program will run and return a recommendation
 
 ## Credits
 Ash Starr - Who wrote the code
